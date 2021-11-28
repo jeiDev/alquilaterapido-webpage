@@ -26,6 +26,9 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta name="theme-color" content={theme.palette.primary.main} />
+                    <link rel="stylesheet" href="/assets/css/reset.css" />
+                    <link rel="stylesheet" href="/assets/css/root.css" />
+                    <link rel="stylesheet" href="/assets/css/grid-system.css" />
                 </Head>
                 <body>
                     <Main />
