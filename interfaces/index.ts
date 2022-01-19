@@ -1,1 +1,6 @@
+export * from "./auth/auth.interface"
+export * from "./form.interface"
+export * from "./hook.interface"
+export * from "./slider.interface"
 export * from "./layout.interface"
+export * from "./publication.interface"

@@ -1,13 +1,12 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 const useStateAuth = () => {
-    const [account, setAccount] = useState({
-       
-    });
+    const [isAuth, setIsAuth] = useState(null);
+    const [account, setAccount] = useState({});
 
     return {
-        account, 
-        setAccount
+        account, setAccount,
+        isAuth, setIsAuth
     }
 }
 
